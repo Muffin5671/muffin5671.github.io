@@ -1,13 +1,13 @@
+html {
+  background-color: #229ae6;
+}
 h1 {
   font-family: Helvetica, sans-serif;
-
-
-
 }
 button {
   padding: 8px 20px;
   border-width: 0px;
-  color: #000000;
+  color: #ffffff;
 }
 .YouTube {
   background: #e62222;
