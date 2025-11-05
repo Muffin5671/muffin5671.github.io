@@ -33,6 +33,7 @@ button {
   border-width: 0px;
   border-radius: 3px;
   color: #ffffff;
+  background: #387bc4;
   cursor: pointer;
   position: relative;
   left: 30px;
@@ -41,6 +42,9 @@ button {
   bottom: 30px;
   text-shadow: 0 2px 8px rgb(0 0 0 / 30%);
   box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+}
+button:hover {
+ background: #1b6899;
 }
 .YouTube {
   background: #e62222;
