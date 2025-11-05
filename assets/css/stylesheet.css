@@ -1,5 +1,4 @@
 html {
- background-image: /assets/bg.png;
  background-color: #287dff;
  background-blend-mode: multiply;
 }
@@ -39,6 +38,6 @@ button {
 .YouTube {
   background: #e62222;
 }
-.YouTube hover {
+.YouTube:hover {
  color: #b41d1d;
 }
