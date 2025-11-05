@@ -1,6 +1,5 @@
- background-image: url("/assets/bg.png");
+.html {
  background-color: #287dff;
- background-blend-mode: multiply;
 }
 .whitebackground {
   background-color: #ffffff;
