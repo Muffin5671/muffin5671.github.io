@@ -24,6 +24,7 @@ p {
   right: 30px;
   top: 30px;
   bottom: 30px
+  text-shadow: 0 5px 8px rgb(0 0 0 / 20%)
 }
 button {
   padding: 8px 20px;
