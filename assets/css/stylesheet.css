@@ -1,4 +1,11 @@
-.html {
+@font-face {
+ font-family: ProductSans;
+ src: url('../fonts/ProductSans-Regular.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+.head {
  background-color: #287dff;
 }
 .whitebackground {
@@ -7,7 +14,7 @@
   border-spacing: 5px;
 }
 h1 {
-  font-family: Helvetica, sans-serif;
+  font-family: ProductSans, sans-serif;
   position: relative;
   left: 30px;
   right: 30px;
@@ -15,7 +22,7 @@ h1 {
   bottom: 30px
 }
 p {
-  font-family: Helvetica, sans-serif;
+  font-family: ProductSans, sans-serif;
   position: relative;
   left: 30px;
   right: 30px;
