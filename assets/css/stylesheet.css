@@ -1,5 +1,7 @@
 html {
-  background-color: #229ae6;
+  background-image: /assets/bg.png;
+ background-blend-mode: multiply;
+ background-color: #287dff;
 }
 .whitebackground {
   background-color: #ffffff;
