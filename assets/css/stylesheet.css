@@ -8,6 +8,7 @@
   background-color: #ffffff;
   border-radius: 4px;
   border-spacing: 5px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
 }
 h1 {
   font-family: ProductSans, sans-serif;
@@ -15,7 +16,8 @@ h1 {
   left: 30px;
   right: 30px;
   top: 30px;
-  bottom: 30px
+  bottom: 30px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
 }
 p {
   font-family: ProductSans, sans-serif;
@@ -23,8 +25,8 @@ p {
   left: 30px;
   right: 30px;
   top: 30px;
-  bottom: 30px
-  text-shadow: 0 5px 8px rgb(0 0 0 / 20%)
+  bottom: 30px;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 30%);
 }
 button {
   padding: 8px 20px;
@@ -36,7 +38,9 @@ button {
   left: 30px;
   right: 30px;
   top: 30px;
-  bottom: 30px
+  bottom: 30px;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
 }
 .YouTube {
   background: #e62222;
