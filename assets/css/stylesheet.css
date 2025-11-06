@@ -7,9 +7,9 @@
 .whitebackground {
   background-color: #eeeeee;
   border-radius: 12px;
-  box-shadow: 0 2px 30px rgb(0 0 0 / 20%)
-  padding-top: 20px;
-  padding-bottom: 20px;
+  box-shadow: 0 2px 30px rgb(0 0 0 / 20%);
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 35px;
   padding-right: 35px;
 }
