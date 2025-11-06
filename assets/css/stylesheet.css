@@ -6,17 +6,17 @@
 }
 .whitebackground {
   background-color: #eeeeee;
-  border-radius: 12px;
+  border-radius: 32px;
   box-shadow: 0 2px 30px rgb(0 0 0 / 20%);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 h1 {
   font-family: ProductSans, sans-serif;
   position: relative;
-  text-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  text-shadow: 0 2px 10px rgb(0 0 0 / 30%);
 }
 p {
   font-family: ProductSans, sans-serif;
