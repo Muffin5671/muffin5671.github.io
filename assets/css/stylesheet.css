@@ -1,48 +1,19 @@
-@font-face {
- font-family: ProductSans;
- src: url('../fonts/ProductSans-Regular.ttf');
- font-weight: normal;
- font-style: normal;
-}
-.whitebackground {
-  background-color: #eeeeee;
-  border-radius: 12px;
-  box-shadow: 0 2px 30px rgb(0 0 0 / 20%);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-h1 {
-  font-family: ProductSans, sans-serif;
-  position: relative;
-  text-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+div#header {
+ background-color: #eeeeee;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 150px;
 }
 p {
-  font-family: ProductSans, sans-serif;
-  position: relative;
-  text-shadow: 0 2px 8px rgb(0 0 0 / 30%);
-}
-button {
-  padding: 12px 32px;
-  border-width: 0px;
-  border-radius: 3px;
-  color: #ffffff;
-  background: #387bc4;
-  cursor: pointer;
-  position: relative;
-  text-shadow: 0 2px 8px rgb(0 0 0 / 30%);
-  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
-}
-button:hover {
- background: #27598f;
-}
-.YouTube {
-  background: #e62222;
-}
-.YouTube:hover {
- background: #b41d1d;
-}
-.Exp {
- background: #ff00ff;
+ font-family: Roboto;
+ font-size: 20px;
+ color: #363636;
+ text-align: center;
+ margin-top: 50px;
+h1 {
+ font-family: Roboto; 
+ font-size: 40px; 
+ font-weight: 400; 
+ color: #646464; 
 }
