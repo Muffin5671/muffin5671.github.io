@@ -1,8 +1,12 @@
-div#header {
+html {
  background-color: #eeeeee;
+}
+div#header {
+ background-color: #7f98ff;
  display: flex;
  justify-content: center;
  align-items: center;
+ margin: -10px;
  height: 150px;
 }
 p {
@@ -16,5 +20,27 @@ h1 {
  font-family: Roboto; 
  font-size: 40px; 
  font-weight: 400; 
- color: #646464; 
+ color: #ffffff; 
+}
+button {
+ background-color: #c4c4c4;
+ color: #ffffff;
+ font-family: Roboto;
+ border-width: 0px;
+ border-radius: 4px;
+ padding: 12px 48px;
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+ cursor: pointer;
+ transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+ background-color: #a9a9a9;
+}
+button.YouTube {
+ background-color: #e62c2c;
+}
+button.YouTube:hover {
+ background-color: #bd2424;
 }
