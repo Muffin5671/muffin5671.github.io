@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
  background-color: #eeeeee;
 }
 div#header {
- background-color: #7f87ff;
+ background-color: #7aa0ff;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -44,5 +46,11 @@ button.YouTube {
  background-color: #e62c2c;
 }
 button.YouTube:hover {
+ background-color: #bd2424;
+}
+button.gdeditor {
+ background-color: #e62c2c;
+}
+button.gdeditor:hover {
  background-color: #bd2424;
 }
