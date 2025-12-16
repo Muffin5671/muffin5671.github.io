@@ -2,7 +2,7 @@ html {
  background-color: #eeeeee;
 }
 div#header {
- background-color: #7f98ff;
+ background-color: #7f87ff;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -23,9 +23,11 @@ h1 {
  color: #ffffff; 
 }
 button {
- background-color: #c4c4c4;
+ background-color: #a8a8a8;
  color: #ffffff;
  font-family: Roboto;
+ font-size: 16px;
+ font-weight: 500;
  border-width: 0px;
  border-radius: 4px;
  padding: 12px 48px;
@@ -36,7 +38,7 @@ button {
  transition: background-color 0.2s ease-in-out;
 }
 button:hover {
- background-color: #a9a9a9;
+ background-color: #979797;
 }
 button.YouTube {
  background-color: #e62c2c;
