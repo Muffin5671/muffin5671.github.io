@@ -9,7 +9,7 @@ div#header {
  justify-content: center;
  align-items: center;
  margin: -10px;
- height: 150px;
+ height: 200px;
 }
 p {
  font-family: Roboto;
@@ -33,9 +33,6 @@ button {
  border-width: 0px;
  border-radius: 4px;
  padding: 12px 48px;
- position: absolute;
- left: 50%;
- transform: translate(-50%);
  cursor: pointer;
  transition: background-color 0.2s ease-in-out;
 }
