@@ -4,8 +4,12 @@
     <title>Not Found (404)</title>
     <link rel="stylesheet" href="/assets/css/stylesheet.css">
     <link rel="icon" href="favicon.ico">
-    <script>
-      document.getElementById('errortext').innerHTML = "The requested file (" + document.location.pathname + ") was not hosted on the server. (404)"
+    <script onload="editErrorText()">
+      async function editErrorText() {
+        document.getElementById('errortext').innerHTML = "The requested file (" 
+        + document.location.pathname + 
+        ") was not hosted on the server. (404)"
+      }
     </script>
   </head>
     <body>
