@@ -4,14 +4,19 @@
     <title>Not Found (404)</title>
     <link rel="stylesheet" href="/assets/css/stylesheet.css">
     <link rel="icon" href="favicon.ico">
+    <script>
+      document.getElementById('errortext').innerHTML = "The requested file ("document.location.pathname") was not hosted on the server. (404)"
+    </script>
   </head>
     <body>
       <div id="header" style="background-color: #494949;">
         <h1>Not Found</h1>
       </div>
-      <p>The requested file was not hosted on the server. (404)</p>
-      <a href="/">
-        <button class="Back">Back</button>
-      </a>
+      <div id="content">
+        <p>The requested file was not hosted on the server. (404)</p>
+        <a href="/">
+          <button class="Back">Back</button>
+        </a>
+      </div>
     </body>
 </html>
