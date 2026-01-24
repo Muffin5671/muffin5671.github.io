@@ -41,6 +41,18 @@ h1 {
  font-weight: 400; 
  color: #ffffff; 
 }
+section {
+ font-family: ui-serif;
+ font-size: 35px;
+ color: #363636;
+ margin-top: 20px;
+ margin-bottom: -30px;
+ padding: 0 0 10px;
+ text-align: left;
+ border-width: 0 0 2px 0;
+ border-color: #363636;
+ border-style: solid;
+}
 button {
  background-color: #a8a8a8;
  color: #ffffff;
