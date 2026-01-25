@@ -53,6 +53,9 @@ section {
  border-color: #363636;
  border-style: solid;
 }
+a {
+ color: #316cff;
+}
 button {
  background-color: #a8a8a8;
  color: #ffffff;
