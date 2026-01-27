@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
  background-color: #eeeeee;
@@ -42,12 +43,11 @@ h1 {
  color: #ffffff; 
 }
 section {
- font-family: ui-serif;
- font-size: 35px;
+ font-family: 'PT Serif',ui-serif;
+ font-size: 32px;
  color: #363636;
  margin-top: 20px;
- margin-bottom: -30px;
- padding: 0 0 10px;
+ margin-bottom: -40px;
  text-align: left;
  border-width: 0 0 2px 0;
  border-color: #363636;
