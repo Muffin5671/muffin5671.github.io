@@ -67,10 +67,11 @@ button {
  padding: 12px 48px;
  margin-bottom: 10px;
  cursor: pointer;
- transition: background-color 0.2s ease-in-out;
+ transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 button:hover {
  background-color: #979797;
+ box-shadow: 0 2px 8px #00000085;
 }
 button.YouTube {
  background-color: #e62c2c;
