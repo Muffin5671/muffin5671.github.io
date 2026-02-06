@@ -8,3 +8,8 @@ window.onload = function editErrorText() {
   + document.location.pathname + 
   " was not hosted on the server. (404)"
 }
+
+function darkMode() {
+  document.getElementsByTagName('html')[0].style.backgroundColor = '#222222';
+  document.getElementsByTagName('p')[length].style.color = '#eeeeee';
+}
