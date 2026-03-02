@@ -4,6 +4,7 @@
 html {
  background-color: #eeeeee;
 }
+
 div#header {
  background-color: #7aa0ff;
  display: flex;
@@ -12,11 +13,13 @@ div#header {
  margin: -10px;
  height: 200px;
 }
+
 div#content {
  display: flex;
  flex-direction: column;
  align-items: center;
 }
+
 div#glass {
  background-image: linear-gradient(#ffffffaa, #ffffff66);
  backdrop-filter: blur(2px);
@@ -24,11 +27,12 @@ div#glass {
  border-color: #ffffff;
  border-width: 2px;
  border-radius: 16px;
- padding: 0px 32px;
+ padding: 0 32px;
  display: flex;
  flex-direction: column;
  align-items: center;
 }
+
 p {
  font-family: Roboto;
  font-size: 20px;
@@ -36,14 +40,16 @@ p {
  text-align: center;
  margin-top: 50px;
 }
+
 h1 {
  font-family: Roboto; 
  font-size: 40px; 
  font-weight: 400; 
  color: #ffffff; 
 }
+
 section {
- font-family: 'PT Serif',ui-serif;
+ font-family: 'PT Serif', ui-serif;
  font-size: 32px;
  color: #363636;
  margin-top: 20px;
@@ -53,11 +59,14 @@ section {
  border-color: #363636;
  border-style: solid;
 }
+
 a {
  color: #316cff;
+ text-decoration: none;
 }
+
 button {
- background-color: #a8a8a8;
+ background-color: #e62c2c;
  color: #ffffff;
  font-family: Roboto;
  font-size: 16px;
@@ -68,20 +77,4 @@ button {
  margin-bottom: 10px;
  cursor: pointer;
  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-button:hover {
- background-color: #979797;
- box-shadow: 0 2px 8px #00000085;
-}
-button.YouTube {
- background-color: #e62c2c;
-}
-button.YouTube:hover {
- background-color: #bd2424;
-}
-button.gdeditor {
- background-color: #e62c2c;
-}
-button.gdeditor:hover {
- background-color: #bd2424;
 }
