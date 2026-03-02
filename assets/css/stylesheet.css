@@ -5,7 +5,7 @@ html {
  background-color: #eeeeee;
 }
 
-div#header {
+header#header {
  background-color: #7aa0ff;
  display: flex;
  justify-content: center;
@@ -77,4 +77,9 @@ button {
  margin-bottom: 10px;
  cursor: pointer;
  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+button:hover {
+ background-color: #bd2424;
+ box-shadow: 0 2px 8px #00000085;
 }
