@@ -65,6 +65,14 @@ a {
  text-decoration: none;
 }
 
+#secretButton {
+ transition: box-shadow 0.2s ease-in-out;
+}
+
+#secretButton:hover {
+ box-shadow: 0 2px 8px #00000085;
+}
+
 button {
  background-color: #e62c2c;
  color: #ffffff;
