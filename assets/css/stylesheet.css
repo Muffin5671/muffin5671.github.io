@@ -66,11 +66,11 @@ a {
 }
 
 #secretButton {
- transition: box-shadow 0.2s ease-in-out;
+ transition: transform 0.2s ease-in-out;
 }
 
 #secretButton:hover {
- box-shadow: 0 2px 8px #00000085;
+ transform: scale(1.2)
 }
 
 button {
