@@ -53,6 +53,11 @@ a {
 }
 
 img#secretButton {
+ position: absolute;
+ right: 12px;
+ top: 10px;
+ inline-size: 30px;
+ -webkit-user-drag: none;
  transition: transform 0.2s ease-in-out;
 }
 
@@ -66,7 +71,7 @@ button {
  font-family: "Roboto", sans-serif, system-ui;
  font-size: 16px;
  font-weight: 500;
- border-width: 0px;
+ border-width: 0;
  border-radius: 4px;
  padding: 12px 48px;
  margin-bottom: 10px;
